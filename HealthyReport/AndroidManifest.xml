@@ -27,15 +27,19 @@
             android:name="WelcomeActivity"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@android:style/Theme.NoTitleBar" >
-            <intent-filter>
+            <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter> -->
         </activity>
         <activity
             android:name="com.rick.healthyreport.HealthyProtectMainActivity"
             android:label="@string/title_activity_healthyprotect_main" >
+            
+        </activity>
+        <activity
+            android:name="PdfActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
